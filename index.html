@@ -62,6 +62,18 @@
     font-weight: 600;
     font-size: 14px;
   }
+  nav {
+    margin-bottom: 32px;
+  }
+  nav a {
+    margin-right: 20px;
+    color: #9CA3AF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  nav a:hover { color: #10B981; }
+  nav a.active { color: #10B981; }
 </style>
 </head>
 <body>
@@ -70,6 +82,12 @@
       <div class="logo-box">AA</div>
       <div class="logo-name">Awais Ahmad</div>
     </div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
     <h1>Give me something I've never touched, and I'll show you what I learned by day 10.</h1>
     <p class="subtitle">AI student building decision-support ML systems for content and search.</p>
     <a class="cta" href="work.html">See the work →</a>
